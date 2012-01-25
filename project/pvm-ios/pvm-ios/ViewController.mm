@@ -11,6 +11,7 @@
 #include "app.h"
 
 App app;
+bool bChangedView = NO;
 
 @interface ViewController () {
 
@@ -30,83 +31,92 @@ App app;
 
 - (void)dealloc
 {
-    [_context release];
-    [_effect release];
-    [super dealloc];
+	[_context release];
+	[_effect release];
+	[super dealloc];
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    
-    self.context = [[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1] autorelease];
+	[super viewDidLoad];
+	
+	self.context = [[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1] autorelease];
 
-    if (!self.context) {
-        NSLog(@"Failed to create ES context");
-    }
-    
-    GLKView *view = (GLKView *)self.view;
-    view.context = self.context;
-    view.drawableDepthFormat = GLKViewDrawableDepthFormat24;
-    
-    [self setupGL];
-    
+	if (!self.context)
+	{
+		NSLog(@"Failed to create ES context");
+	}
+	
+	GLKView *view = (GLKView *)self.view;
+	view.context = self.context;
+	view.drawableDepthFormat = GLKViewDrawableDepthFormat24;
+	
+	[self setupGL];
 }
 
 - (void)viewDidUnload
-{    
-    [super viewDidUnload];
-    
-    [self tearDownGL];
-    
-    if ([EAGLContext currentContext] == self.context) {
-        [EAGLContext setCurrentContext:nil];
-    }
-    self.context = nil;
+{	
+	[super viewDidUnload];
+	
+	[self tearDownGL];
+	
+	if ([EAGLContext currentContext] == self.context)
+	{
+		[EAGLContext setCurrentContext:nil];
+	}
+	self.context = nil;
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc. that aren't in use.
+	[super didReceiveMemoryWarning];
+	// Release any cached data, images, etc. that aren't in use.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    if (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown &&
-        interfaceOrientation != UIInterfaceOrientationPortrait) {
-        GLKView *view = (GLKView *)self.view;
-        pScreen->Resize(view.bounds.size.width, view.bounds.size.height);
-        return YES;
-    }
-    else {
-        return NO;
-    }
-        
+	// Return YES for supported orientations
+	if (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown &&
+		interfaceOrientation != UIInterfaceOrientationPortrait)
+	{
+		bChangedView = YES;
+		return YES;
+	}
+	else
+	{
+		return NO;
+	}
 }
 
 - (void)setupGL
 {
-    [EAGLContext setCurrentContext:self.context];
-    
-    Seed::SetGameApp(&app, 0, NULL);
-    
-    GLKView *view = (GLKView *)self.view;
-    pScreen->Resize(view.bounds.size.width, view.bounds.size.height);
-    Seed::Initialize();
+	[EAGLContext setCurrentContext:self.context];
+	
+	Seed::SetGameApp(&app, 0, NULL);
+	Seed::Initialize();
 }
 
 - (void)tearDownGL
 {
-    [EAGLContext setCurrentContext:self.context];
+	[EAGLContext setCurrentContext:self.context];
 }
 
 #pragma mark - GLKView and GLKViewController delegate methods
 
 - (void)update
 {
-    //Seed::Update();
+	/*
+	if (bChangedView)
+	{
+		GLKView *view = (GLKView *)self.view;
+		pScreen->Resize(view.bounds.size.width, view.bounds.size.height);
+		
+		pRendererDevice->Shutdown();
+		pRendererDevice->Initialize();
+		
+		bChangedView = NO;
+	}
+	*/
 }
 
 - (void)Pause
@@ -121,7 +131,7 @@ App app;
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
 {
-    Seed::Update();
+	Seed::Update();
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -138,21 +148,19 @@ App app;
 		Info("Press %d %f,%f", i, tp.x, tp.y);
 		EventInputPointer ev(0, Seed::Button0, 0, 0, tp.x / pScreen->GetWidth(), tp.y / pScreen->GetHeight());
 		pInput->SendEventPointerPress(&ev);
-    }
-	
-	//pInput->Update(1.0f / 60.0f);
+	}
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {  
 	(void)event;
 	NSUInteger i = 0;
-    
+	
 	for (UITouch *touch in touches)
 	{
 		CGPoint p = [touch locationInView:self.view];
 		CGPoint tp = p;
-        
+		
 		iphTouchBuff[i].iTaps = [touch tapCount];
 		iphTouchBuff[i].bStatus = 2;
 		iphTouchBuff[i].fPosX = tp.x;
@@ -160,7 +168,7 @@ App app;
 		i++;
 		
 		if (i == PLATFORM_MAX_INPUT)
-			break;		
+			break;
 	}
 }
 
@@ -179,8 +187,6 @@ App app;
 		EventInputPointer ev(0, Seed::Button0, 0, 1, tp.x / pScreen->GetWidth(), tp.y / pScreen->GetHeight());
 		pInput->SendEventPointerRelease(&ev);
 	}
-	
-	//pInput->Update(1.0f / 60.0f);
 }
 
 @end

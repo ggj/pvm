@@ -1,0 +1,20 @@
+<sexport>
+	<wii>
+		<output path="$(SEEDSDK)/pvm/workdir/data" />
+		<image input="$(SEEDSDK)/pvm/assets" res_height="768" res_width="1024" />
+		<music input="$(SEEDSDK)/pvm/assets" />
+		<sound input="$(SEEDSDK)/pvm/assets" />
+	</wii>
+	<iph>
+		<output path="$(SEEDSDK)/pvm/workdir/data" />
+		<image input="$(SEEDSDK)/pvm/assets" res_height="768" res_width="1024" />
+		<music input="$(SEEDSDK)/pvm/assets" />
+		<sound input="$(SEEDSDK)/pvm/assets" />
+	</iph>
+	<sdl>
+		<output path="$(SEEDSDK)/pvm/workdir/data" />
+		<image input="$(SEEDSDK)/pvm/assets" res_height="768" res_width="1024" />
+		<music input="$(SEEDSDK)/pvm/assets" />
+		<sound input="$(SEEDSDK)/pvm/assets" />
+	</sdl>
+</sexport>

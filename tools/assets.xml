@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<strings/>
+	<resources>
+		<resource type='image' name='hud/intro' filename='hud/mainmenu/main_01'/>
+		<resource type='image' name='hud/menu' filename='hud/mainmenu/main_02'/>
+		<resource type='image' name='hud/bg' filename='hud/bg'/>
+		<resource type='image' name='hud/credits' filename='hud/credits'/>
+		<resource type='image' name='tileset_tileset01' filename='tileset/tileset01' />
+		<resource type='image' name='hud/gameover_panda' filename='hud/gameover_panda'/>
+		<resource type='image' name='hud/gameover_love' filename='hud/gameover_love'/>
+		<resource type='image' name='hud/gameover_maia' filename='hud/gameover_maia'/>
+		<resource type='image' name='hud/tutorial' filename='hud/tutorial'/>
+		<resource type='image' name='hud/thanks' filename='hud/thanks'/>
+
+		<resource type='image' name='hud/touch/lr' filename='hud/touch/lr'/>
+		<resource type='image' name='hud/touch/up' filename='hud/touch/up'/>
+
+<resource type='image' filename='pvm0' name='hud/hud_maya_05' x='2' y='2' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_06' x='406' y='2' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_attack_0001' x='810' y='2' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_attack_0002' x='878' y='2' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_attack_0003' x='946' y='2' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_07' x='2' y='61' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_08' x='406' y='61' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_attack_0004' x='810' y='70' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_death_0001' x='878' y='70' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_death_0002' x='946' y='70' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_09' x='2' y='120' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_10' x='406' y='120' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_death_0003' x='810' y='138' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_death_0004' x='878' y='138' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_fall_0001' x='946' y='138' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_01' x='2' y='179' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_02' x='406' y='179' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_fall_0002' x='810' y='206' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_fall_0003' x='878' y='206' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_fall_0004' x='946' y='206' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_03' x='2' y='238' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_04' x='406' y='238' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_fly_down_0001' x='810' y='274' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_fly_down_0002' x='878' y='274' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_fly_up_0001' x='946' y='274' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_05' x='2' y='297' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_06' x='406' y='297' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_fly_up_0002' x='810' y='342' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_idle_0001' x='878' y='342' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_idle_0002' x='946' y='342' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_07' x='2' y='356' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_08' x='406' y='356' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_idle_0003' x='810' y='410' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_idle_0004' x='878' y='410' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_idle_0005' x='946' y='410' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_09' x='2' y='415' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_panda_10' x='406' y='415' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_01' x='2' y='474' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_02' x='406' y='474' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_run_0001' x='810' y='478' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_run_0002' x='878' y='478' width='64' height='64' />
+<resource type='image' filename='pvm0' name='maia/maia_run_0003' x='946' y='478' width='64' height='64' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_03' x='2' y='533' width='400' height='55' />
+<resource type='image' filename='pvm0' name='hud/hud_maya_04' x='406' y='533' width='400' height='55' />
+<resource type='image' filename='pvm0' name='maia/maia_run_0004' x='810' y='546' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_01' x='878' y='546' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_02' x='946' y='546' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_03' x='2' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_04' x='70' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_05' x='138' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_06' x='206' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_attack_07' x='274' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_death_01' x='342' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_death_02' x='410' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_death_03' x='478' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_death_04' x='546' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_death_05' x='614' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fall_01' x='682' y='592' width='64' height='64' />
+<resource type='image' filename='pvm0' name='powerups/babyshield_01' x='750' y='592' width='32' height='32' />
+<resource type='image' filename='pvm0' name='panda/panda_fall_02' x='786' y='614' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fall_03' x='854' y='614' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fall_04' x='922' y='614' width='64' height='64' />
+<resource type='image' filename='pvm0' name='powerups/babyshield_02' x='990' y='614' width='32' height='32' />
+<resource type='image' filename='pvm0' name='babies/maia_baby_01' x='750' y='628' width='32' height='32' />
+<resource type='image' filename='pvm0' name='babies/maia_baby_02' x='990' y='650' width='32' height='32' />
+<resource type='image' filename='pvm0' name='panda/panda_fly_01' x='2' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fly_02' x='70' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fly_03' x='138' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fly_04' x='206' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_fly_05' x='274' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_idle' x='342' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_walk_01' x='410' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_walk_02' x='478' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='panda/panda_walk_03' x='546' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='powerups/immolation_01' x='614' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='powerups/immolation_02' x='682' y='660' width='64' height='64' />
+<resource type='image' filename='pvm0' name='babies/panda_baby_01' x='750' y='664' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/shield_01' x='786' y='682' width='64' height='64' />
+<resource type='image' filename='pvm0' name='powerups/shield_02' x='854' y='682' width='64' height='64' />
+<resource type='image' filename='pvm0' name='powerups/bigorna' x='922' y='682' width='64' height='32' />
+<resource type='image' filename='pvm0' name='babies/panda_baby_02' x='990' y='686' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/boost' x='750' y='700' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/cleanse' x='922' y='718' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/deny' x='958' y='722' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/fast' x='2' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/glue' x='38' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/glue_tile' x='74' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/heavy' x='110' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/kick' x='146' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/magnetcs' x='182' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/missle' x='218' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/moon' x='254' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/offspring' x='290' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/reverse' x='326' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/self' x='362' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='powerups/immolation' x='398' y='728' width='32' height='32' />
+<resource type='image' filename='pvm0' name='babies/panda_baby_03' x='434' y='728' width='32' height='32' />
+
+<resource type='image' filename='hud0' name='hud/options/options_base' x='2' y='2' width='567' height='427' />
+<resource type='image' filename='hud0' name='hud/mainmenu/play_over' x='573' y='2' width='331' height='114' />
+<resource type='image' filename='hud0' name='hud/options/volume_0' x='908' y='2' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/options/next_down' x='992' y='2' width='19' height='29' />
+<resource type='image' filename='hud0' name='hud/options/prev_down' x='992' y='35' width='19' height='29' />
+<resource type='image' filename='hud0' name='hud/options/volume_1' x='908' y='48' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/options/prev_out' x='992' y='68' width='19' height='29' />
+<resource type='image' filename='hud0' name='hud/options/volume_2' x='908' y='94' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/options/next_out' x='992' y='101' width='19' height='29' />
+<resource type='image' filename='hud0' name='hud/mainmenu/play_out' x='573' y='120' width='331' height='114' />
+<resource type='image' filename='hud0' name='hud/options/volume_3' x='908' y='140' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/options/volume_4' x='908' y='186' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/options/volume_5' x='908' y='232' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/mainmenu/options_out' x='573' y='238' width='331' height='97' />
+<resource type='image' filename='hud0' name='hud/options/volume_6' x='908' y='278' width='80' height='42' />
+<resource type='image' filename='hud0' name='hud/options/check_off' x='908' y='324' width='37' height='34' />
+<resource type='image' filename='hud0' name='hud/options/check_on' x='949' y='324' width='37' height='34' />
+<resource type='image' filename='hud0' name='hud/mainmenu/credits_out' x='573' y='339' width='331' height='97' />
+<resource type='image' filename='hud0' name='hud/options/exit_over' x='2' y='433' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/bgm_out' x='494' y='440' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/bgm_over' x='2' y='492' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/control_out' x='494' y='499' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/control_over' x='2' y='551' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/full_out' x='494' y='558' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/full_over' x='2' y='610' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/exit_out' x='494' y='617' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/sfx_out' x='2' y='669' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/options/sfx_over' x='494' y='676' width='488' height='55' />
+<resource type='image' filename='hud0' name='hud/mainmenu/credits_over' x='2' y='728' width='331' height='97' />
+<resource type='image' filename='hud0' name='hud/options/control_control_04' x='337' y='728' width='150' height='50' />
+<resource type='image' filename='hud0' name='hud/mainmenu/quit_out' x='491' y='735' width='331' height='97' />
+<resource type='image' filename='hud0' name='hud/options/options' x='826' y='735' width='163' height='38' />
+<resource type='image' filename='hud0' name='hud/options/control_control_01' x='826' y='777' width='150' height='50' />
+<resource type='image' filename='hud0' name='hud/options/control_control_02' x='337' y='782' width='150' height='50' />
+<resource type='image' filename='hud0' name='hud/mainmenu/quit_over' x='2' y='829' width='331' height='97' />
+<resource type='image' filename='hud0' name='hud/options/control_control_03' x='826' y='831' width='150' height='50' />
+<resource type='image' filename='hud0' name='hud/mainmenu/options_over' x='337' y='836' width='331' height='97' />
+<resource type='image' filename='hud0' name='hud/mainmenu/main_01_press_start' x='672' y='885' width='247' height='50' />
+
+		<resource type='sound' filename='sounds/bear' name='bear' />
+		<resource type='sound' filename='sounds/hit' name='hit' />
+		<resource type='sound' filename='sounds/jetpack' name='jetpack' />
+		<resource type='sound' filename='sounds/jetpack_fail' name='jetpack_fail' />
+		<resource type='sound' filename='sounds/maia' name='maia' />
+		<resource type='sound' filename='sounds/powerup_01' name='powerup_01' />
+		<resource type='sound' filename='sounds/powerup_02' name='powerup_02' />
+		<resource type='sound' filename='sounds/powerup_03' name='powerup_03' />
+		<resource type='sound' filename='sounds/powerup_04' name='powerup_04' />
+		<resource type='sound' filename='sounds/start_fight' name='start_fight' />
+		<resource type='sound' filename='sounds/steps' name='steps' />
+		<resource type='sound' filename='sounds/wings' name='wings' />
+		<resource type='sound' filename='sounds/wings_fail' name='wings_fail' />
+
+		<resource type='music' filename='sounds/GlobalGameJam02_196kbps' name='music' />
+
+	</resources>
+	<objects>
+		<object type='sound' name='sound/bear' resource='bear' loop='false' volume='100' />
+		<object type='sound' name='sound/hit' resource='hit' loop='false' volume='100' />
+		<object type='sound' name='sound/jetpack' resource='jetpack' loop='true' volume='100' />
+		<object type='sound' name='sound/jetpack_fail' resource='jetpack_fail' loop='false' volume='100' />
+		<object type='sound' name='sound/maia' resource='maia' loop='false' volume='100' />
+		<object type='sound' name='sound/powerup_01' resource='powerup_01' loop='false' volume='100' />
+		<object type='sound' name='sound/powerup_02' resource='powerup_02' loop='false' volume='100' />
+		<object type='sound' name='sound/powerup_03' resource='powerup_03' loop='false' volume='100' />
+		<object type='sound' name='sound/powerup_04' resource='powerup_04' loop='false' volume='100' />
+		<object type='sound' name='sound/start_fight' resource='start_fight' loop='false' volume='100' />
+		<object type='sound' name='sound/steps' resource='steps' loop='true' volume='100' />
+		<object type='sound' name='sound/wings' resource='wings' loop='true' volume='100' />
+		<object type='sound' name='sound/wings_fail' resource='wings_fail' loop='false' volume='100' />
+
+		<object type='music' name='sound/music' resource='music' volume='35' />
+
+		<object type='sprite' name='hud/touch/lr'>
+			<animation name='empty'>
+				<frame resource='hud/touch/lr'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/touch/up'>
+			<animation name='empty'>
+				<frame resource='hud/touch/up'/>
+			</animation>
+		</object>
+
+		<object type='sprite' name='hud/intro'>
+			<animation name='empty'>
+				<frame resource='hud/intro'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/intro_start'>
+			<animation name='empty'>
+				<frame resource='hud/mainmenu/main_01_press_start'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/menu'>
+			<animation name='empty'>
+				<frame resource='hud/menu'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/bg'>
+			<animation name='empty'>
+				<frame resource='hud/bg'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/tutorial'>
+			<animation name='empty'>
+				<frame resource='hud/tutorial'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/thanks'>
+			<animation name='empty'>
+				<frame resource='hud/thanks'/>
+			</animation>
+		</object>
+		<object type='sprite' name='powerups/bigorna'>
+			<animation name='empty'>
+				<frame resource='powerups/bigorna'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/gameover_panda'>
+			<animation name='panda'>
+				<frame resource='hud/gameover_panda'/>
+			</animation>
+			<animation name='maia'>
+				<frame resource='hud/gameover_maia'/>
+			</animation>
+			<animation name='peace'>
+				<frame resource='hud/gameover_love'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/creditsbg'>
+			<animation name='empty'>
+				<frame resource='hud/credits'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/mainmenu/play'>
+			<animation name='normal'>
+				<frame resource='hud/mainmenu/play_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/mainmenu/play_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/mainmenu/credits'>
+			<animation name='normal'>
+				<frame resource='hud/mainmenu/credits_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/mainmenu/credits_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/mainmenu/options'>
+			<animation name='normal'>
+				<frame resource='hud/mainmenu/options_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/mainmenu/options_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/mainmenu/quit'>
+			<animation name='normal'>
+				<frame resource='hud/mainmenu/quit_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/mainmenu/quit_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/base'>
+			<animation name='empty'>
+				<frame resource='hud/options/options_base'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/options_title'>
+			<animation name='empty'>
+				<frame resource='hud/options/options'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/prev'>
+			<animation name='normal'>
+				<frame resource='hud/options/prev_out'/>
+			</animation>
+			<animation name='pressed'>
+				<frame resource='hud/options/prev_down'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/next'>
+			<animation name='normal'>
+				<frame resource='hud/options/next_out'/>
+			</animation>
+			<animation name='pressed'>
+				<frame resource='hud/options/next_down'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/control'>
+			<animation name='normal'>
+				<frame resource='hud/options/control_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/options/control_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/control_option'>
+			<animation name='key_key'>
+				<frame resource='hud/options/control_control_01'/>
+			</animation>
+			<animation name='joy_key'>
+				<frame resource='hud/options/control_control_02'/>
+			</animation>
+			<animation name='key_joy'>
+				<frame resource='hud/options/control_control_04'/>
+			</animation>
+			<animation name='joy_joy'>
+				<frame resource='hud/options/control_control_03'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/volume'>
+			<animation name='gauge'>
+				<frame resource='hud/options/volume_0'/>
+				<frame resource='hud/options/volume_1'/>
+				<frame resource='hud/options/volume_2'/>
+				<frame resource='hud/options/volume_3'/>
+				<frame resource='hud/options/volume_4'/>
+				<frame resource='hud/options/volume_5'/>
+				<frame resource='hud/options/volume_6'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/bgm'>
+			<animation name='normal'>
+				<frame resource='hud/options/bgm_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/options/bgm_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/sfx'>
+			<animation name='normal'>
+				<frame resource='hud/options/sfx_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/options/sfx_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/fullscreen'>
+			<animation name='normal'>
+				<frame resource='hud/options/full_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/options/full_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/checkbox'>
+			<animation name='normal'>
+				<frame resource='hud/options/check_off'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/options/check_on'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/options/exit'>
+			<animation name='normal'>
+				<frame resource='hud/options/exit_out'/>
+			</animation>
+			<animation name='selected'>
+				<frame resource='hud/options/exit_over'/>
+			</animation>
+		</object>
+		<object type='sprite' name='team/baby'>
+			<animation name='baby_panda' animated='true' loop='true'>
+				<frame resource='babies/panda_baby_01' frame_count='5'/>
+				<frame resource='babies/panda_baby_02' frame_count='15'/>
+			</animation>
+			<animation name='baby_maya' animated='true' loop='true'>
+				<frame resource='babies/maia_baby_01' frame_count='5'/>
+				<frame resource='babies/maia_baby_02' frame_count='15'/>
+			</animation>
+		</object>
+		<object type='sprite' name='powerups/powerup_immolation'>
+			<animation name='immolation' animated='true' loop='true' frame_count='15'>
+				<frame resource='powerups/immolation_01'/>
+				<frame resource='powerups/immolation_02'/>
+			</animation>
+		</object>
+		<object type='sprite' name='powerups/powerup_shield'>
+			<animation name='shield' animated='true' loop='true' frame_count='15'>
+				<frame resource='powerups/shield_01'/>
+				<frame resource='powerups/shield_02'/>
+			</animation>
+		</object>
+		<object type='sprite' name='powerups/powerup_babyshield'>
+			<animation name='babyshield' animated='true' loop='true' frame_count='15'>
+				<frame resource='powerups/babyshield_01'/>
+				<frame resource='powerups/babyshield_02'/>
+			</animation>
+		</object>
+		<object type='sprite' name='powerups/powerup_icons'>
+			<animation name='boost'>
+				<frame resource='powerups/boost'/>
+			</animation>
+			<animation name='cleanse'>
+				<frame resource='powerups/cleanse'/>
+			</animation>
+			<animation name='deny'>
+				<frame resource='powerups/deny'/>
+			</animation>
+			<animation name='fast'>
+				<frame resource='powerups/fast'/>
+			</animation>
+			<animation name='glue'>
+				<frame resource='powerups/glue'/>
+			</animation>
+			<animation name='glue_tile'>
+				<frame resource='powerups/glue_tile'/>
+			</animation>
+			<animation name='heavy'>
+				<frame resource='powerups/heavy'/>
+			</animation>
+			<animation name='immolation'>
+				<frame resource='powerups/immolation'/>
+			</animation>
+			<animation name='kick'>
+				<frame resource='powerups/kick'/>
+			</animation>
+			<animation name='magnetcs'>
+				<frame resource='powerups/magnetcs'/>
+			</animation>
+			<animation name='missle'>
+				<frame resource='powerups/missle'/>
+			</animation>
+			<animation name='offspring'>
+				<frame resource='powerups/offspring'/>
+			</animation>
+			<animation name='reverse'>
+				<frame resource='powerups/reverse'/>
+			</animation>
+			<animation name='self'>
+				<frame resource='powerups/self'/>
+			</animation>
+		</object>
+		<object type='sprite' name='hud/gauge'>
+			<animation name='gauge_panda'>
+				<frame resource='hud/hud_panda_10'/>
+				<frame resource='hud/hud_panda_09'/>
+				<frame resource='hud/hud_panda_08'/>
+				<frame resource='hud/hud_panda_07'/>
+				<frame resource='hud/hud_panda_06'/>
+				<frame resource='hud/hud_panda_05'/>
+				<frame resource='hud/hud_panda_04'/>
+				<frame resource='hud/hud_panda_03'/>
+				<frame resource='hud/hud_panda_02'/>
+				<frame resource='hud/hud_panda_01'/>
+			</animation>
+			<animation name='gauge_maya'>
+				<frame resource='hud/hud_maya_10'/>
+				<frame resource='hud/hud_maya_09'/>
+				<frame resource='hud/hud_maya_08'/>
+				<frame resource='hud/hud_maya_07'/>
+				<frame resource='hud/hud_maya_06'/>
+				<frame resource='hud/hud_maya_05'/>
+				<frame resource='hud/hud_maya_04'/>
+				<frame resource='hud/hud_maya_03'/>
+				<frame resource='hud/hud_maya_02'/>
+				<frame resource='hud/hud_maya_01'/>
+			</animation>
+		</object>
+		<object type='sprite' name='team/panda'>
+			<animation name='attack' animated='true' loop='false' frame_count='15'>
+				<frame resource='panda/panda_attack_01'/>
+				<frame resource='panda/panda_attack_02'/>
+				<frame resource='panda/panda_attack_03'/>
+				<frame resource='panda/panda_attack_04'/>
+				<frame resource='panda/panda_attack_05'/>
+				<frame resource='panda/panda_attack_06'/>
+				<frame resource='panda/panda_attack_07'/>
+			</animation>
+			<animation name='death' animated='true' loop='false' frame_count='15'>
+				<frame resource='panda/panda_death_01'/>
+				<frame resource='panda/panda_death_02'/>
+				<frame resource='panda/panda_death_03'/>
+				<frame resource='panda/panda_death_04'/>
+				<frame resource='panda/panda_death_05'/>
+			</animation>
+			<animation name='fall' animated='true' loop='true' frame_count='15'>
+				<frame resource='panda/panda_fall_01'/>
+				<frame resource='panda/panda_fall_02'/>
+				<frame resource='panda/panda_fall_03'/>
+				<frame resource='panda/panda_fall_04'/>
+			</animation>
+			<animation name='fly_up' animated='true' loop='true' frame_count='15'>
+				<frame resource='panda/panda_fly_01'/>
+				<frame resource='panda/panda_fly_02'/>
+				<frame resource='panda/panda_fly_03'/>
+				<frame resource='panda/panda_fly_04'/>
+			</animation>
+			<animation name='fly_down' animated='true' loop='true' frame_count='15'>
+				<frame resource='panda/panda_fly_01'/>
+				<frame resource='panda/panda_fly_02'/>
+				<frame resource='panda/panda_fly_03'/>
+				<frame resource='panda/panda_fly_04'/>
+			</animation>
+			<animation name='idle'>
+				<frame resource='panda/panda_idle'/>
+			</animation>
+			<animation name='run' animated='true' loop='true' frame_count='15'>
+				<frame resource='panda/panda_walk_01'/>
+				<frame resource='panda/panda_walk_02'/>
+				<frame resource='panda/panda_walk_03'/>
+			</animation>
+		</object>
+		<object type='sprite' name='team/maia'>
+			<animation name='attack' animated='true' loop='false' frame_count='15'>
+				<frame resource='maia/maia_attack_0001'/>
+				<frame resource='maia/maia_attack_0002'/>
+				<frame resource='maia/maia_attack_0003'/>
+				<frame resource='maia/maia_attack_0004'/>
+			</animation>
+			<animation name='death' animated='true' loop='false' frame_count='15'>
+				<frame resource='maia/maia_death_0001'/>
+				<frame resource='maia/maia_death_0002'/>
+				<frame resource='maia/maia_death_0003'/>
+				<frame resource='maia/maia_death_0004'/>
+			</animation>
+			<animation name='fall' animated='true' loop='true' frame_count='15'>
+				<frame resource='maia/maia_fall_0001'/>
+				<frame resource='maia/maia_fall_0002'/>
+				<frame resource='maia/maia_fall_0003'/>
+				<frame resource='maia/maia_fall_0004'/>
+			</animation>
+			<animation name='fly_up' animated='true' loop='true' frame_count='15'>
+				<frame resource='maia/maia_fly_up_0001'/>
+				<frame resource='maia/maia_fly_up_0002'/>
+			</animation>
+			<animation name='fly_down' animated='true' loop='true' frame_count='15'>
+				<frame resource='maia/maia_fly_down_0001'/>
+				<frame resource='maia/maia_fly_down_0002'/>
+			</animation>
+			<animation name='idle' animated='true' loop='true' frame_count='15'>
+				<frame resource='maia/maia_idle_0001'/>
+				<frame resource='maia/maia_idle_0002'/>
+				<frame resource='maia/maia_idle_0003'/>
+				<frame resource='maia/maia_idle_0004'/>
+				<frame resource='maia/maia_idle_0005'/>
+			</animation>
+			<animation name='run' animated='true' loop='true' frame_count='15'>
+				<frame resource='maia/maia_run_0001'/>
+				<frame resource='maia/maia_run_0002'/>
+				<frame resource='maia/maia_run_0003'/>
+				<frame resource='maia/maia_run_0004'/>
+			</animation>
+		</object>
+		<object type='sprite' name='tileset_tileset01'>
+			<animation name='empty'>
+				<frame resource='tileset_tileset01' x='1' y='1' width='1' height='1'/>
+			</animation>
+			<animation name='tile_0001'>
+				<frame resource='tileset_tileset01' x='0' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0002'>
+				<frame resource='tileset_tileset01' x='32' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0003'>
+				<frame resource='tileset_tileset01' x='64' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0004'>
+				<frame resource='tileset_tileset01' x='96' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0005'>
+				<frame resource='tileset_tileset01' x='128' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0006'>
+				<frame resource='tileset_tileset01' x='160' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0007'>
+				<frame resource='tileset_tileset01' x='192' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0008'>
+				<frame resource='tileset_tileset01' x='224' y='0' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0009'>
+				<frame resource='tileset_tileset01' x='0' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0010'>
+				<frame resource='tileset_tileset01' x='32' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0011'>
+				<frame resource='tileset_tileset01' x='64' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0012'>
+				<frame resource='tileset_tileset01' x='96' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0013'>
+				<frame resource='tileset_tileset01' x='128' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0014'>
+				<frame resource='tileset_tileset01' x='160' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0015'>
+				<frame resource='tileset_tileset01' x='192' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0016'>
+				<frame resource='tileset_tileset01' x='224' y='32' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0017'>
+				<frame resource='tileset_tileset01' x='0' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0018'>
+				<frame resource='tileset_tileset01' x='32' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0019'>
+				<frame resource='tileset_tileset01' x='64' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0020'>
+				<frame resource='tileset_tileset01' x='96' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0021'>
+				<frame resource='tileset_tileset01' x='128' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0022'>
+				<frame resource='tileset_tileset01' x='160' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0023'>
+				<frame resource='tileset_tileset01' x='192' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0024'>
+				<frame resource='tileset_tileset01' x='224' y='64' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0025'>
+				<frame resource='tileset_tileset01' x='0' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0026'>
+				<frame resource='tileset_tileset01' x='32' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0027'>
+				<frame resource='tileset_tileset01' x='64' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0028'>
+				<frame resource='tileset_tileset01' x='96' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0029'>
+				<frame resource='tileset_tileset01' x='128' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0030'>
+				<frame resource='tileset_tileset01' x='160' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0031'>
+				<frame resource='tileset_tileset01' x='192' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0032'>
+				<frame resource='tileset_tileset01' x='224' y='96' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0033'>
+				<frame resource='tileset_tileset01' x='0' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0034'>
+				<frame resource='tileset_tileset01' x='32' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0035'>
+				<frame resource='tileset_tileset01' x='64' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0036'>
+				<frame resource='tileset_tileset01' x='96' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0037'>
+				<frame resource='tileset_tileset01' x='128' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0038'>
+				<frame resource='tileset_tileset01' x='160' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0039'>
+				<frame resource='tileset_tileset01' x='192' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0040'>
+				<frame resource='tileset_tileset01' x='224' y='128' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0041'>
+				<frame resource='tileset_tileset01' x='0' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0042'>
+				<frame resource='tileset_tileset01' x='32' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0043'>
+				<frame resource='tileset_tileset01' x='64' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0044'>
+				<frame resource='tileset_tileset01' x='96' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0045'>
+				<frame resource='tileset_tileset01' x='128' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0046'>
+				<frame resource='tileset_tileset01' x='160' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0047'>
+				<frame resource='tileset_tileset01' x='192' y='160' width='32' height='32'/>
+			</animation>
+			<animation name='tile_0048'>
+				<frame resource='tileset_tileset01' x='224' y='160' width='32' height='32'/>
+			</animation>
+		</object>
+
+		<object type='map2d' tile_width='32' tile_height='32' width='32' height='24' name='lv1'>
+			<layer name='tile' opacity='1.00' visible='true' type='tiled'>48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,4,5,48,48,48,48,48,48,48,48,48,48,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,10,10,1,2,3,4,5,6,7,8,48,48,48,48,48,48,48,48,48,48,48,48,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,9,1,10,48,48,48,48,48,48,48,48,48,48,48,48,9,10,1,2,3,4,5,6,7,8,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,2,1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8,2,48,48,48,48,48,48,48,48,48,48,48,48,48,48,10,1,2,3,4,5,6,7,8,1,2,3,4,5,6,7,8,10,48,48,48,48,48,48,48,47,47,45,46,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,45,46,45,45,47,48,</layer>
+			<layer name='collision' opacity='1.00' visible='true' type='object'>
+				<object name='object_0001' type='type_0001' x='4.937500' y='6.062500' width='21.968750' height='1.937500'/>
+				<object name='object_0002' type='type_0002' x='0.000000' y='14.031250' width='9.937500' height='1.937500'/>
+				<object name='object_0003' type='type_0003' x='22.031250' y='13.968750' width='10.031250' height='2.000000'/>
+				<object name='object_0004' type='type_0004' x='7.031250' y='21.062500' width='17.968750' height='1.812500'/>
+			</layer>
+		</object>
+		<object type='map2d' tile_width='32' tile_height='32' width='32' height='24' name='lv2'>
+			<layer name='tile' opacity='1.00' visible='true' type='tiled'>48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,17,18,19,20,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,16,14,15,16,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,11,12,13,14,15,16,17,18,19,20,48,48,48,48,48,48,48,48,48,48,48,48,11,12,13,14,15,16,17,18,19,20,17,18,19,20,11,12,13,14,15,16,48,48,48,48,48,48,48,48,48,48,48,48,17,18,19,20,11,12,13,14,15,16,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,11,12,48,48,48,11,12,48,48,48,11,12,48,48,48,11,12,48,48,48,11,12,48,48,48,11,12,48,48,48,48,48,19,20,48,48,48,19,16,48,48,48,16,20,48,48,48,16,20,48,48,48,15,16,48,48,48,15,16,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,11,12,17,18,19,20,11,12,13,11,11,12,17,18,19,20,11,12,13,14,15,16,11,12,48,48,48,48,48,48,48,48,19,20,20,11,12,13,14,15,16,19,19,20,11,12,13,14,15,16,17,18,19,20,19,20,48,48,48,48,</layer>
+			<layer name='collision' opacity='1.00' visible='true' type='object'>
+				<object name='object_0001' type='type_0001' x='14.062500' y='3.031250' width='3.906250' height='1.812500'/>
+				<object name='object_0002' type='type_0002' x='-0.031250' y='8.000000' width='10.125000' height='1.937500'/>
+				<object name='object_0003' type='type_0003' x='22.031250' y='8.031250' width='9.968750' height='2.000000'/>
+				<object name='object_0004' type='type_0004' x='2.000000' y='14.968750' width='1.968750' height='2.062500'/>
+				<object name='object_0005' type='type_0005' x='7.031250' y='14.937500' width='1.968750' height='2.062500'/>
+				<object name='object_0006' type='type_0006' x='12.000000' y='14.968750' width='1.968750' height='2.062500'/>
+				<object name='object_0007' type='type_0007' x='17.062500' y='15.000000' width='1.968750' height='2.062500'/>
+				<object name='object_0008' type='type_0008' x='22.000000' y='14.968750' width='1.968750' height='2.062500'/>
+				<object name='object_0009' type='type_0009' x='27.000000' y='14.968750' width='1.968750' height='2.062500'/>
+				<object name='object_0010' type='type_0010' x='4.000000' y='22.031250' width='23.968750' height='1.968750'/>
+			</layer>
+		</object>
+		<object type='map2d' tile_width='32' tile_height='32' width='32' height='24' name='lv3'>
+			<layer name='tiles' opacity='1.00' visible='true' type='tiled'>48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,37,38,39,40,35,36,48,48,48,48,48,48,31,37,38,39,40,37,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,33,34,37,38,39,40,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,33,34,35,36,37,38,39,40,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,33,34,35,36,37,38,39,40,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,33,34,35,36,37,38,39,40,31,32,33,34,35,36,37,38,39,40,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,38,39,40,34,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,38,39,40,0,</layer>
+			<layer name='collision' opacity='1.00' visible='true' type='object'>
+				<object name='object_0001' type='type_0001' x='6.937500' y='4.093750' width='6.062500' height='0.781250'/>
+				<object name='object_0002' type='type_0002' x='18.937500' y='4.000000' width='6.062500' height='0.968750'/>
+				<object name='object_0003' type='type_0003' x='13.031250' y='8.000000' width='5.968750' height='0.906250'/>
+				<object name='object_0004' type='type_0004' x='0.062500' y='10.968750' width='7.968750' height='1.093750'/>
+				<object name='object_0005' type='type_0005' x='24.000000' y='10.968750' width='8.000000' height='1.031250'/>
+				<object name='object_0006' type='type_0006' x='6.968750' y='17.000000' width='18.000000' height='0.937500'/>
+				<object name='object_0007' type='type_0007' x='-0.062500' y='23.031250' width='4.031250' height='0.968750'/>
+				<object name='object_0008' type='type_0008' x='27.937500' y='23.000000' width='4.062500' height='1.062500'/>
+			</layer>
+		</object>
+		<object type='map2d' tile_width='32' tile_height='32' width='32' height='24' name='lv4'>
+			<layer name='tile' opacity='1.00' visible='true' type='tiled'>48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,25,26,27,28,29,30,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,23,26,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,27,26,48,26,27,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,22,23,48,48,48,26,23,26,48,48,48,48,48,25,26,27,28,29,30,21,22,23,24,26,21,48,48,48,48,48,28,29,30,48,48,48,48,48,48,26,48,48,48,48,48,27,48,48,48,48,48,48,48,48,48,48,29,48,48,48,48,48,26,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,27,28,29,30,23,48,48,48,48,48,26,27,28,29,23,48,48,23,27,28,29,30,48,48,48,48,48,26,27,28,29,23,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,26,27,28,29,30,48,48,48,25,26,27,28,29,22,48,48,48,26,27,28,29,30,48,48,48,48,48,</layer>
+			<layer name='collision' opacity='1.00' visible='true' type='object'>
+				<object name='object_0001' type='type_0001' x='13.125000' y='7.000000' width='5.875000' height='0.968750'/>
+				<object name='object_0002' type='type_0002' x='10.000000' y='10.875000' width='11.937500' height='1.125000'/>
+				<object name='object_0003' type='type_0003' x='10.062500' y='12.062500' width='0.875000' height='0.843750'/>
+				<object name='object_0004' type='type_0004' x='20.968750' y='12.031250' width='1.031250' height='0.968750'/>
+				<object name='object_0005' type='type_0005' x='-0.093750' y='9.000000' width='2.125000' height='0.937500'/>
+				<object name='object_0006' type='type_0006' x='0.875000' y='9.968750' width='2.125000' height='0.937500'/>
+				<object name='object_0007' type='type_0007' x='1.875000' y='11.000000' width='3.000000' height='0.968750'/>
+				<object name='object_0008' type='type_0008' x='4.000000' y='11.968750' width='1.000000' height='1.000000'/>
+				<object name='object_0009' type='type_0009' x='29.937500' y='9.031250' width='2.125000' height='0.937500'/>
+				<object name='object_0010' type='type_0010' x='28.968750' y='10.000000' width='2.125000' height='0.937500'/>
+				<object name='object_0011' type='type_0011' x='26.968750' y='10.968750' width='3.000000' height='0.968750'/>
+				<object name='object_0012' type='type_0012' x='27.031250' y='11.906250' width='1.000000' height='1.000000'/>
+				<object name='object_0013' type='type_0013' x='-0.031250' y='17.968750' width='5.031250' height='1.000000'/>
+				<object name='object_0014' type='type_0014' x='10.000000' y='18.000000' width='5.031250' height='1.000000'/>
+				<object name='object_0015' type='type_0015' x='17.000000' y='18.000000' width='5.031250' height='1.000000'/>
+				<object name='object_0016' type='type_0016' x='27.000000' y='18.000000' width='5.031250' height='1.000000'/>
+				<object name='object_0017' type='type_0017' x='5.031250' y='22.937500' width='5.031250' height='1.000000'/>
+				<object name='object_0018' type='type_0018' x='13.000000' y='22.937500' width='5.937500' height='1.125000'/>
+				<object name='object_0019' type='type_0019' x='22.000000' y='23.000000' width='5.031250' height='1.000000'/>
+			</layer>
+		</object>
+		<object type='map2d' tile_width='32' tile_height='32' width='32' height='24' name='lv5'>
+			<layer name='tile' opacity='1.00' visible='true' type='tiled'>48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,33,34,35,36,37,38,31,32,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,38,39,40,34,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,21,48,48,48,48,12,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,22,48,48,48,48,48,11,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,30,48,48,48,48,48,48,17,48,48,48,48,48,48,48,11,12,13,14,15,16,18,19,20,48,48,48,48,48,48,48,48,48,29,48,48,48,48,48,48,19,20,12,13,14,15,16,48,48,48,48,48,48,48,48,48,12,48,48,48,48,48,48,48,48,48,23,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,19,48,48,48,48,48,48,48,48,48,30,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,11,48,48,48,48,48,48,48,48,48,29,48,48,48,48,48,48,48,48,48,48,25,26,27,28,29,30,48,48,48,48,48,48,15,48,48,48,48,48,48,48,48,48,22,23,24,25,26,27,28,29,30,29,48,48,48,48,48,48,29,48,48,48,48,48,48,12,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,25,48,48,48,48,48,48,16,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,30,48,48,48,48,48,11,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,29,48,48,48,48,19,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,1,2,3,4,5,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,1,2,3,4,5,6,7,8,1,2,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,10,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,2,4,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,10,9,10,1,48,48,48,4,48,48,48,3,48,48,48,0,4,5,48,48,48,48,1,48,48,48,4,48,48,48,9,10,5,</layer>
+			<layer name='collision' opacity='1.00' visible='true' type='object'>
+				<object name='object_0001' type='type_0001' x='0.000000' y='5.937500' width='8.031250' height='1.000000'/>
+				<object name='object_0002' type='type_0002' x='28.000000' y='6.000000' width='4.062500' height='0.937500'/>
+				<object name='object_0003' type='type_0003' x='24.843750' y='9.937500' width='7.250000' height='1.031250'/>
+				<object name='object_0004' type='type_0004' x='21.968750' y='14.031250' width='10.187500' height='0.937500'/>
+				<object name='object_0005' type='type_0005' x='22.000000' y='18.968750' width='10.156250' height='1.000000'/>
+				<object name='object_0006' type='type_0006' x='0.000000' y='18.968750' width='5.031250' height='1.000000'/>
+				<object name='object_0007' type='type_0007' x='0.093750' y='14.000000' width='5.937500' height='1.062500'/>
+				<object name='object_0008' type='type_0008' x='-0.062500' y='9.968750' width='9.031250' height='0.968750'/>
+				<object name='object_0009' type='type_0009' x='-0.062500' y='22.968750' width='3.062500' height='1.000000'/>
+				<object name='object_0010' type='type_0010' x='28.906250' y='22.968750' width='3.062500' height='1.000000'/>
+				<object name='object_0011' type='type_0011' x='31.000000' y='21.000000' width='1.000000' height='1.968750'/>
+				<object name='object_0012' type='type_0012' x='0.000000' y='21.000000' width='1.000000' height='1.968750'/>
+				<object name='object_0013' type='type_0013' x='7.312500' y='-5.843750' width='1.000000' height='1.968750'/>
+				<object name='object_0014' type='type_0014' x='7.000000' y='15.906250' width='1.156250' height='1.218750'/>
+				<object name='object_0015' type='type_0015' x='8.031250' y='17.000000' width='1.125000' height='1.093750'/>
+				<object name='object_0016' type='type_0016' x='9.031250' y='17.875000' width='1.031250' height='1.250000'/>
+				<object name='object_0017' type='type_0017' x='14.000000' y='15.968750' width='1.125000' height='3.031250'/>
+				<object name='object_0018' type='type_0018' x='13.000000' y='14.968750' width='1.093750' height='1.093750'/>
+				<object name='object_0019' type='type_0019' x='11.968750' y='13.968750' width='1.125000' height='1.125000'/>
+				<object name='object_0020' type='type_0020' x='10.968750' y='13.031250' width='1.125000' height='1.031250'/>
+				<object name='object_0021' type='type_0021' x='10.000000' y='11.968750' width='1.125000' height='1.187500'/>
+				<object name='object_0022' type='type_0022' x='8.937500' y='10.906250' width='1.156250' height='1.218750'/>
+				<object name='object_0023' type='type_0023' x='20.968750' y='12.937500' width='1.031250' height='1.000000'/>
+				<object name='object_0024' type='type_0024' x='20.031250' y='11.968750' width='1.000000' height='0.968750'/>
+				<object name='object_0025' type='type_0025' x='19.000000' y='11.000000' width='0.968750' height='1.000000'/>
+				<object name='object_0026' type='type_0026' x='17.968750' y='9.968750' width='1.062500' height='1.000000'/>
+				<object name='object_0027' type='type_0027' x='17.031250' y='6.906250' width='1.062500' height='3.250000'/>
+				<object name='object_0028' type='type_0028' x='6.031250' y='15.031250' width='0.906250' height='1.000000'/>
+				<object name='object_0029' type='type_0029' x='24.062500' y='8.968750' width='1.062500' height='1.093750'/>
+				<object name='object_0030' type='type_0030' x='25.031250' y='22.937500' width='0.906250' height='1.000000'/>
+				<object name='object_0031' type='type_0031' x='20.968750' y='22.968750' width='0.906250' height='1.000000'/>
+				<object name='object_0032' type='type_0032' x='14.968750' y='23.031250' width='1.968750' height='1.000000'/>
+				<object name='object_0033' type='type_0033' x='10.000000' y='23.031250' width='0.906250' height='1.000000'/>
+				<object name='object_0034' type='type_0034' x='6.000000' y='23.031250' width='0.906250' height='1.000000'/>
+				<object name='object_0035' type='type_0035' x='23.000000' y='8.031250' width='1.156250' height='0.968750'/>
+				<object name='object_0036' type='type_0036' x='21.968750' y='6.968750' width='1.187500' height='1.093750'/>
+			</layer>
+		</object>
+	</objects>
+</root>

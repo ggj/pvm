@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<strings/>
+	<resources>
+		<resource type="image" name="tileset_tileset01" filename="tileset/tileset01"/>
+	</resources>
+	<objects>
+		<object type="sprite" name="tileset_tileset01">
+			<animation name="empty">
+				<frame resource="tileset_tileset01" x="1" y="1" width="1" height="1"/>
+			</animation>
+			<animation name="tile_0001">
+				<frame resource="tileset_tileset01" x="0" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0002">
+				<frame resource="tileset_tileset01" x="32" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0003">
+				<frame resource="tileset_tileset01" x="64" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0004">
+				<frame resource="tileset_tileset01" x="96" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0005">
+				<frame resource="tileset_tileset01" x="128" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0006">
+				<frame resource="tileset_tileset01" x="160" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0007">
+				<frame resource="tileset_tileset01" x="192" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0008">
+				<frame resource="tileset_tileset01" x="224" y="0" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0009">
+				<frame resource="tileset_tileset01" x="0" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0010">
+				<frame resource="tileset_tileset01" x="32" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0011">
+				<frame resource="tileset_tileset01" x="64" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0012">
+				<frame resource="tileset_tileset01" x="96" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0013">
+				<frame resource="tileset_tileset01" x="128" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0014">
+				<frame resource="tileset_tileset01" x="160" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0015">
+				<frame resource="tileset_tileset01" x="192" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0016">
+				<frame resource="tileset_tileset01" x="224" y="32" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0017">
+				<frame resource="tileset_tileset01" x="0" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0018">
+				<frame resource="tileset_tileset01" x="32" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0019">
+				<frame resource="tileset_tileset01" x="64" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0020">
+				<frame resource="tileset_tileset01" x="96" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0021">
+				<frame resource="tileset_tileset01" x="128" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0022">
+				<frame resource="tileset_tileset01" x="160" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0023">
+				<frame resource="tileset_tileset01" x="192" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0024">
+				<frame resource="tileset_tileset01" x="224" y="64" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0025">
+				<frame resource="tileset_tileset01" x="0" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0026">
+				<frame resource="tileset_tileset01" x="32" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0027">
+				<frame resource="tileset_tileset01" x="64" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0028">
+				<frame resource="tileset_tileset01" x="96" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0029">
+				<frame resource="tileset_tileset01" x="128" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0030">
+				<frame resource="tileset_tileset01" x="160" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0031">
+				<frame resource="tileset_tileset01" x="192" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0032">
+				<frame resource="tileset_tileset01" x="224" y="96" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0033">
+				<frame resource="tileset_tileset01" x="0" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0034">
+				<frame resource="tileset_tileset01" x="32" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0035">
+				<frame resource="tileset_tileset01" x="64" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0036">
+				<frame resource="tileset_tileset01" x="96" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0037">
+				<frame resource="tileset_tileset01" x="128" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0038">
+				<frame resource="tileset_tileset01" x="160" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0039">
+				<frame resource="tileset_tileset01" x="192" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0040">
+				<frame resource="tileset_tileset01" x="224" y="128" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0041">
+				<frame resource="tileset_tileset01" x="0" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0042">
+				<frame resource="tileset_tileset01" x="32" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0043">
+				<frame resource="tileset_tileset01" x="64" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0044">
+				<frame resource="tileset_tileset01" x="96" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0045">
+				<frame resource="tileset_tileset01" x="128" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0046">
+				<frame resource="tileset_tileset01" x="160" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0047">
+				<frame resource="tileset_tileset01" x="192" y="160" width="32" height="32"/>
+			</animation>
+			<animation name="tile_0048">
+				<frame resource="tileset_tileset01" x="224" y="160" width="32" height="32"/>
+			</animation>
+		</object>
+		<object type="map2d" tile_width="32" tile_height="32" width="32" height="24" name="lv5">
+			<layer name="tile" opacity="1.00" visible="true" type="tiled">48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,33,34,35,36,37,38,31,32,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,38,39,40,34,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,21,48,48,48,48,12,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,22,48,48,48,48,48,11,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,30,48,48,48,48,48,48,17,48,48,48,48,48,48,48,11,12,13,14,15,16,18,19,20,48,48,48,48,48,48,48,48,48,29,48,48,48,48,48,48,19,20,12,13,14,15,16,48,48,48,48,48,48,48,48,48,12,48,48,48,48,48,48,48,48,48,23,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,19,48,48,48,48,48,48,48,48,48,30,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,11,48,48,48,48,48,48,48,48,48,29,48,48,48,48,48,48,48,48,48,48,25,26,27,28,29,30,48,48,48,48,48,48,15,48,48,48,48,48,48,48,48,48,22,23,24,25,26,27,28,29,30,29,48,48,48,48,48,48,29,48,48,48,48,48,48,12,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,25,48,48,48,48,48,48,16,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,30,48,48,48,48,48,11,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,29,48,48,48,48,19,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,1,2,3,4,5,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,1,2,3,4,5,6,7,8,1,2,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,10,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,2,4,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,10,9,10,1,48,48,48,4,48,48,48,3,48,48,48,0,4,5,48,48,48,48,1,48,48,48,4,48,48,48,9,10,5,</layer>
+			<layer name="collision" opacity="1.00" visible="true" type="object">
+				<object name="object_0001" type="type_0001" x="0.000000" y="5.937500" width="8.031250" height="1.000000"/>
+				<object name="object_0002" type="type_0002" x="28.000000" y="6.000000" width="4.062500" height="0.937500"/>
+				<object name="object_0003" type="type_0003" x="24.843750" y="9.937500" width="7.250000" height="1.031250"/>
+				<object name="object_0004" type="type_0004" x="21.968750" y="14.031250" width="10.187500" height="0.937500"/>
+				<object name="object_0005" type="type_0005" x="22.000000" y="18.968750" width="10.156250" height="1.000000"/>
+				<object name="object_0006" type="type_0006" x="0.000000" y="18.968750" width="5.031250" height="1.000000"/>
+				<object name="object_0007" type="type_0007" x="0.093750" y="14.000000" width="5.937500" height="1.062500"/>
+				<object name="object_0008" type="type_0008" x="-0.062500" y="9.968750" width="9.031250" height="0.968750"/>
+				<object name="object_0009" type="type_0009" x="-0.062500" y="22.968750" width="3.062500" height="1.000000"/>
+				<object name="object_0010" type="type_0010" x="28.906250" y="22.968750" width="3.062500" height="1.000000"/>
+				<object name="object_0011" type="type_0011" x="31.000000" y="21.000000" width="1.000000" height="1.968750"/>
+				<object name="object_0012" type="type_0012" x="0.000000" y="21.000000" width="1.000000" height="1.968750"/>
+				<object name="object_0013" type="type_0013" x="7.312500" y="-5.843750" width="1.000000" height="1.968750"/>
+				<object name="object_0014" type="type_0014" x="7.000000" y="15.906250" width="1.156250" height="1.218750"/>
+				<object name="object_0015" type="type_0015" x="8.031250" y="17.000000" width="1.125000" height="1.093750"/>
+				<object name="object_0016" type="type_0016" x="9.031250" y="17.875000" width="1.031250" height="1.250000"/>
+				<object name="object_0017" type="type_0017" x="14.000000" y="15.968750" width="1.125000" height="3.031250"/>
+				<object name="object_0018" type="type_0018" x="13.000000" y="14.968750" width="1.093750" height="1.093750"/>
+				<object name="object_0019" type="type_0019" x="11.968750" y="13.968750" width="1.125000" height="1.125000"/>
+				<object name="object_0020" type="type_0020" x="10.968750" y="13.031250" width="1.125000" height="1.031250"/>
+				<object name="object_0021" type="type_0021" x="10.000000" y="11.968750" width="1.125000" height="1.187500"/>
+				<object name="object_0022" type="type_0022" x="8.937500" y="10.906250" width="1.156250" height="1.218750"/>
+				<object name="object_0023" type="type_0023" x="20.968750" y="12.937500" width="1.031250" height="1.000000"/>
+				<object name="object_0024" type="type_0024" x="20.031250" y="11.968750" width="1.000000" height="0.968750"/>
+				<object name="object_0025" type="type_0025" x="19.000000" y="11.000000" width="0.968750" height="1.000000"/>
+				<object name="object_0026" type="type_0026" x="17.968750" y="9.968750" width="1.062500" height="1.000000"/>
+				<object name="object_0027" type="type_0027" x="17.031250" y="6.906250" width="1.062500" height="3.250000"/>
+				<object name="object_0028" type="type_0028" x="6.031250" y="15.031250" width="0.906250" height="1.000000"/>
+				<object name="object_0029" type="type_0029" x="24.062500" y="8.968750" width="1.062500" height="1.093750"/>
+				<object name="object_0030" type="type_0030" x="25.031250" y="22.937500" width="0.906250" height="1.000000"/>
+				<object name="object_0031" type="type_0031" x="20.968750" y="22.968750" width="0.906250" height="1.000000"/>
+				<object name="object_0032" type="type_0032" x="14.968750" y="23.031250" width="1.968750" height="1.000000"/>
+				<object name="object_0033" type="type_0033" x="10.000000" y="23.031250" width="0.906250" height="1.000000"/>
+				<object name="object_0034" type="type_0034" x="6.000000" y="23.031250" width="0.906250" height="1.000000"/>
+				<object name="object_0035" type="type_0035" x="23.000000" y="8.031250" width="1.156250" height="0.968750"/>
+				<object name="object_0036" type="type_0036" x="21.968750" y="6.968750" width="1.187500" height="1.093750"/>
+			</layer>
+		</object>
+	</objects>
+</root>

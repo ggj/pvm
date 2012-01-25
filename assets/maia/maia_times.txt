@@ -1,0 +1,33 @@
+Arquivo = Frames
+
+maia_fly_down_0001 = 5
+maia_fly_down_0002 = 5
+
+maia_fly_up_0001 = 5
+maia_fly_up_0002 = 5
+
+maia_run_0001 = 8
+maia_run_0002 = 8
+maia_run_0003 = 8
+maia_run_0004 = 8
+
+maia_fall_0001 = 7
+maia_fall_0002 = 7
+maia_fall_0003 = 7
+maia_fall_0004 = 7
+
+maia_idle_0001 = 9 
+maia_idle_0002 = 9
+maia_idle_0003 = 9
+maia_idle_0004 = 9
+maia_idle_0005 = 9
+
+maia_death_0001 = 7
+maia_death_0002 = 7
+maia_death_0003 = 6
+maia_death_0004 = 6
+
+maia_attack_0001 = 6
+maia_attack_0002 = 7
+maia_attack_0003 = 3
+maia_attack_0004 = 6

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BIT64=`uname -m`
+PLATFORM=`uname`
+
+if [ "$PLATFORM" == 'Linux' ]; then
+	sox $@
+else
+	sox.osx "$@"
+fi

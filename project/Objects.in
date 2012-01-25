@@ -1,0 +1,25 @@
+OBJECTS = \
+../menu.o \
+../app.o \
+../baby.o \
+../collisionobject.o \
+../credits.o \
+../game.o \
+../hud.o \
+../imaplayer.o \
+../imetadataobject.o \
+../main.o \
+../map.o \
+../maplayermetadata.o \
+../maplayermosaic.o \
+../maplayertiled.o \
+../player.o \
+../powerup.o \
+../spawnerobject.o \
+../thanks.o \
+../tile.o \
+../triggerobject.o \
+../tutorial.o \
+../actor.o \
+../options.o \
+../intro.o

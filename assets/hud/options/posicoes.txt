@@ -1,0 +1,91 @@
+Descrição = Nome do arquivo (posição)
+
+Main 01 ====================================================================
+
+Fundo = Main_01.png (0 x 0)
+Press Start (piscando) = Main_01_press_start.png (408 x 689)
+
+Main 02 ====================================================================
+
+Fundo = Main_02.png (0 x 0)
+
+play = play_out.png   (340 x 402)
+       play_over.png 
+
+       panda_walk (310 x 430)
+
+       maya_run (645 x 430)        
+
+options = options_out.png (340 x 500)
+          options_over.png
+
+          panda_walk (310 x 515)
+
+          maya_run (645 x 515)
+
+Credits = credits_out.png (340 x 582)
+          credits_over.png
+
+          panda_walk (310 x 600)
+
+          maya_run (645 x 600)
+
+Quit = quit_out.png (340 x 664)
+       quit_over.png
+
+       panda_walk (310 x 680)
+
+       maya_run (645 x 680)
+
+Obs: panda e maya flipados
+
+Main 03 ====================================================================
+
+Fundo = Main_02.png (0 x 0)
+
+Options Frame = options_base.png (229 x 339)
+
+Options Title = options.png (429 x 386)
+
+Control Type = control_out.png  (268 x 439)
+               control_over.png
+
+               prev_out.png  (528 x 452)
+               prev_down.png
+
+      *new     next_out.png (718 x 452)
+               next_down.png
+
+               control_control_0.png até control_control_4.png (566 x 444)
+               // control_keyboard.png
+
+BGM Volume =   BGM_out.png  (268 x 494)
+               BGM_over.png
+
+               prev_out.png  (528 x 508)
+               prev_down.png
+
+               next_out.png (640 x 508)
+               next_down.png
+
+               volume_0 até 6.png (554 x 496)
+
+SFX volume =   SFX_out.png  (268 x 547)
+               SFX_over.png
+
+               prev_out.png  (528 x 562)
+               prev_down.png
+
+               next_out.png (640 x 562)
+               next_down.png
+
+               volume_0 até 6.png (554 x 549)
+
+Fullscreen =   full_out.png  (268 x 600)
+               full_over.png
+
+               check_off.png  (536 x 611)
+               check_on.png
+
+Exit       =   exit_out.png (268 x 654)
+               exit_over.png  

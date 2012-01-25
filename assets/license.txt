@@ -1,0 +1,3 @@
+Free for fun!
+
+For fullscreen run with parameter "--fullscreen".

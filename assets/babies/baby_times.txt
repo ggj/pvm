@@ -1,0 +1,8 @@
+Arquivo = Frames
+
+maia_baby_01 = 10 
+maia_baby_02 = 10
+
+panda_baby_01 = 39
+panda_baby_02 = 6
+panda_baby_03 = 18

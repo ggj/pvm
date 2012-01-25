@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pvm", "project1.vcproj", "{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Seed", "..\..\seed\project\Seed SDL 8.vcproj", "{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Commercial|Win32 = Debug Commercial|Win32
+		Debug LGPL AppUp|Win32 = Debug LGPL AppUp|Win32
+		Debug LGPL|Win32 = Debug LGPL|Win32
+		Release Commercial|Win32 = Release Commercial|Win32
+		Release LGPL AppUp|Win32 = Release LGPL AppUp|Win32
+		Release LGPL|Win32 = Release LGPL|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Debug Commercial|Win32.ActiveCfg = Debug Commercial|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Debug Commercial|Win32.Build.0 = Debug Commercial|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Debug LGPL AppUp|Win32.ActiveCfg = Debug LGPL AppUp|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Debug LGPL AppUp|Win32.Build.0 = Debug LGPL AppUp|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Debug LGPL|Win32.ActiveCfg = Debug LGPL|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Debug LGPL|Win32.Build.0 = Debug LGPL|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Release Commercial|Win32.ActiveCfg = Release LGPL|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Release Commercial|Win32.Build.0 = Release LGPL|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Release LGPL AppUp|Win32.ActiveCfg = Release LGPL AppUp|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Release LGPL AppUp|Win32.Build.0 = Release LGPL AppUp|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Release LGPL|Win32.ActiveCfg = Release LGPL|Win32
+		{2BE9AA39-A4B9-4AC7-90A9-CE64FECE7B14}.Release LGPL|Win32.Build.0 = Release LGPL|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Debug Commercial|Win32.ActiveCfg = Debug Commercial|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Debug Commercial|Win32.Build.0 = Debug Commercial|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Debug LGPL AppUp|Win32.ActiveCfg = Debug LGPL AppUp|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Debug LGPL AppUp|Win32.Build.0 = Debug LGPL AppUp|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Debug LGPL|Win32.ActiveCfg = Debug LGPL|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Debug LGPL|Win32.Build.0 = Debug LGPL|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Release Commercial|Win32.ActiveCfg = Release Commercial|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Release Commercial|Win32.Build.0 = Release Commercial|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Release LGPL AppUp|Win32.ActiveCfg = Release LGPL AppUp|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Release LGPL AppUp|Win32.Build.0 = Release LGPL AppUp|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Release LGPL|Win32.ActiveCfg = Release LGPL|Win32
+		{D5B9F9EE-D553-47C6-B1E8-10D5145F6472}.Release LGPL|Win32.Build.0 = Release LGPL|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="basepath" value="C:/sdk/pvm/assets/"/>
+  <property name="name" value="lv1"/>
+ </properties>
+ <tileset firstgid="1" name="tileset01" tilewidth="32" tileheight="32">
+  <image source="tileset/tileset01.png"/>
+ </tileset>
+ <layer name="tile" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3USQqAMAwF0FjH9i7a3v90fiGKG0niQF1k8egiJYGS30JExTl3aCBACx30MMAIE0RIhnt7TTvf2l97r/a7Ovc3iXQZsvZ9I7uR63eyq/0bar+/c1e2vZX2V6qHB/M1+ZHqUnYzm2Hh8yvn/pnnrxMBkugADAAA
+  </data>
+ </layer>
+ <objectgroup name="collision" width="32" height="24">
+  <object name="" x="158" y="194" width="703" height="62"/>
+  <object name="" x="0" y="449" width="318" height="62"/>
+  <object name="" x="705" y="447" width="321" height="64"/>
+  <object name="" x="225" y="674" width="575" height="58"/>
+ </objectgroup>
+</map>

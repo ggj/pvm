@@ -1,0 +1,32 @@
+Arquivo = Frames
+
+panda_attack_01 = 4
+panda_attack_02 = 4
+panda_attack_03 = 4
+panda_attack_04 = 4
+panda_attack_05 = 4
+panda_attack_06 = 4
+panda_attack_07 = 2
+
+panda_death_01 = 4
+panda_death_02 = 2
+panda_death_03 = 4
+panda_death_04 = 4
+panda_death_05 = 8
+
+panda_fall_01 = 6
+panda_fall_02 = 4
+panda_fall_03 = 2
+panda_fall_04 = 4
+
+panda_fly_01 = 4
+panda_fly_02 = 4
+panda_fly_03 = 4
+panda_fly_04 = 4
+panda_fly_05 = 4
+
+panda_idle = frame único
+
+panda_walk_01 = 6
+panda_walk_02 = 6
+panda_walk_03 = 6

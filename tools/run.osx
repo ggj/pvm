@@ -1,6 +1,0 @@
-#!/bin/bash
-echo Building assets
-rm cache.sdl.txt 2> /dev/null
-rm StringCache.txt 2> /dev/null
-./sexporter.osx -i assets.xml -p iph -v
-cp assets.h ../assets.h

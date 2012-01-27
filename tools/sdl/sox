@@ -4,7 +4,7 @@ BIT64=`uname -m`
 PLATFORM=`uname`
 
 if [ "$PLATFORM" == 'Linux' ]; then
-	./sox $@
+	sox "$@"
 else
-	./sox.osx "$@"
+	$0.osx "$@"
 fi

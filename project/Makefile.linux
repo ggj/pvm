@@ -2,12 +2,11 @@ PROJECT=pvm
 include Objects.in
 TARGET = ../workdir/$(PROJECT)
 
-SEEDSDK=/media/d/SDK
-
 GCC = g++
-CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I$(SEEDSDK)/seed/include -I$(SEEDSDK)/seeddemos/common/sdl -I.. -I/usr/local/include
+CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I$(SEEDSDK)/seed/include -I$(SEEDSDK)/seed/contrib -I$(SEEDSDK)/seeddemos/common/sdl -I.. -I/usr/local/include
 CDEFS = -D_SDL_ -DDEBUG
-LIBS = -lSDL_image -lopenal -lGL -lSeed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora -lBox2D
+LIBS = -lSDL -lSDL_image -lopenal -lGL -lSeed
+#-logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora -lBox2D
 CPPFLAGS = $(CFLAGS)
 LFLAGS = `sdl-config --libs` -L$(SEEDSDK)/seed/bin -L/usr/local/lib
 
